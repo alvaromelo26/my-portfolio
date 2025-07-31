@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    background-color: rgb(47, 46, 63);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f0f1a;
+    font-family: Arial, Helvetica, sans-serif
+    
 }
 /*Remover barra de rolagem*/
 body::-webkit-scrollbar{
@@ -12,17 +13,17 @@ body::-webkit-scrollbar{
 }
 
 .main_nav{
-    position: fixed;
+    position: center;
     display: flex;
     width: 100%;
-    background-color: rgb(128, 128, 128);
+    background-color: #20377a;
     
 }
 .main_nav a{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(248, 246, 246);
+    color: white;
     text-decoration: none;
     text-decoration-color: aliceblue;
     font-size: 18px;
@@ -32,7 +33,7 @@ body::-webkit-scrollbar{
 }
 
 .main_nav a:hover{
-    background-color: rgb(16, 227, 12);
+    background-color: #00ffe1;
 }
 
 .wrapper {
@@ -46,9 +47,26 @@ body::-webkit-scrollbar{
     width: 100%;
     height: 100%;
     justify-content: center;
-    color: white;
+    color: #eaeaea;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 20px;
     align-items: center;
+    text-align: center;
+    text-align: justify;
+    border-radius: 20px;
+
+}
+li {
+     max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #1e1e2f;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-weight: 500;
+  animation: floatUp 0.6s ease-out;
+    
     
 }
