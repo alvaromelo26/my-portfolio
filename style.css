@@ -13,7 +13,6 @@ body::-webkit-scrollbar{
 }
 
 .main_nav{
-    position: center;
     display: flex;
     width: 100%;
     background-color: #20377a;
@@ -33,10 +32,11 @@ body::-webkit-scrollbar{
 }
 
 .main_nav a:hover{
-    background-color: #00ffe1;
+    background-color: #0f0d71;
 }
 
 .wrapper {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -56,17 +56,33 @@ body::-webkit-scrollbar{
     border-radius: 20px;
 
 }
-li {
-     max-width: 600px;
-  margin: 2rem auto;
-  padding: 1.5rem;
-  background-color: #1e1e2f;
-  color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-  text-align: center;
-  font-weight: 500;
-  animation: floatUp 0.6s ease-out;
-    
-    
+p {
+     max-width: flex;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #1e1e2f;
+    color: #fff;
+     border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+     text-align: center;
+     font-weight: 500;
+     animation: floatUp 0.6s ease-out;
+       
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #20377a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3 ease;
+}
+
+.btn:hover {
+    background-color: #0f0d71;
+    color: #fff;
+    cursor: pointer;
 }
